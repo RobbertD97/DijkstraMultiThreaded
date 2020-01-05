@@ -22,7 +22,7 @@ public class Main {
 
 
 
-        String inputSetsLocation = "/Users/rmc10/Downloads/Dijkstra/Dijkstra/Inputsets/";
+        String inputSetsLocation = "/Users/rmc10/Downloads/Dijkstra/DijkstraMultiThreaded/Inputsets/";
         String[] inputsets = new String[]{"G1.txt", "G23.txt", "G25.txt", "G36.txt", "G45.txt", "G54.txt", "G58.txt",
                 "G60.txt", "G50.txt", "G70.txt"};
         Integer[] setRanges = Main.findSetRanges(inputSetsLocation, inputsets);
